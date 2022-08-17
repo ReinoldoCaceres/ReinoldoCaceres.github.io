@@ -74,6 +74,7 @@ margin-left: auto;
 
 .flag-img{
     width: 520px;
+    margin-top: 5%;
 }
 
 .american-flag-text >h1{
@@ -116,7 +117,9 @@ margin-left: auto;
 }
 
 .numbers-information-para{
-    font-size: 2rem;
+    font-size: 4rem;
+    text-align: center;
+
 }
 .number{
     color: black;
@@ -167,7 +170,7 @@ margin-left: auto;
 .quote-tile{
     color: white;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
 }
 
