@@ -142,18 +142,18 @@ margin-left: auto;
     color: #9e1a16;
     font-weight: bold;
     font-size: 2rem;
-    text-align: end;
+    text-align: center;
     width: 78%;
 }
 .program-item >p{
     color: black;
-    text-align: right;
+    text-align: center;
     width: 349px;
 }
 .program-item >h2{
     color: black;
     font-weight: bold;
-    text-align: right;
+    text-align: center;
     width: 50%;
     margin-left: 26%;
 }
