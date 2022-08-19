@@ -621,4 +621,49 @@ iframe{
     }
   }
 
+  .bio-tite , .for-azusa-title{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #9e1a16;
+    font-weight: bold;
+  }
+
+  .for-azusa-title{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: #9e1a16;
+    font-weight: bold;
+  }
+
   
+  .bio-content, .for-azusa{
+    margin: auto;
+    width: 75%;
+    line-height: 2em;
+  }
+
+  .bold-red{
+    color: #801212;
+    font-weight: 900;
+  }
+
+  .bold-red-final{
+    color: #9e1a16;
+    font-weight: 999;
+    font-size: 1.1em;
+  }
+
+  .for-azusa{
+    margin-bottom: 5%;
+  }
+
+  .read-more{
+    cursor: pointer;
+  }
+  
+  a:link, a:visited,  a:hover, a:active{
+    text-decoration: none !important;
+    color: black;
+  }
