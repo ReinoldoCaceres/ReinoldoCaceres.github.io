@@ -642,6 +642,8 @@ iframe{
     margin: auto;
     width: 75%;
     line-height: 2em;
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   .bold-red{
@@ -662,7 +664,7 @@ iframe{
   .read-more{
     cursor: pointer;
   }
-  
+
   a:link, a:visited,  a:hover, a:active{
     text-decoration: none !important;
     color: black;
