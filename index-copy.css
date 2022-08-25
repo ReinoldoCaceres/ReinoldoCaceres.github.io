@@ -1,7 +1,7 @@
 .logo{
     width: 250px;
 }
-.nav-item-social-responsive{
+.nav-item-social-responsive,.social-icons-resp{
     display: none;
 }
 .nav-item {
@@ -200,6 +200,7 @@ margin-left: auto;
     width: 40px;
 }
 
+
 .col-md-4 >h2 {
     font-size: 1rem;
 }
@@ -331,6 +332,10 @@ iframe{
         padding-top: 3%;
         display: unset;
         text-align: center;
+    }
+
+    .social-icons-resp {
+        display: unset;
     }
 
     .dark-red{
@@ -468,6 +473,15 @@ iframe{
     .social-image{
         width: 40px;
     }
+
+    .social-icons-resp{
+        text-align: center;
+    }
+
+    .social-image2{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     .social-li{
         margin-left: 10%;
     }
@@ -514,6 +528,18 @@ iframe{
         width: 40px;
     }
 
+    .social-image2{
+        margin-right: 10px;
+        margin-left: 10px;
+
+    }
+    .social-icons-resp{
+        text-align: center;
+    }
+
+    .social-icons-resp {
+        display: unset;
+    }
 
     .img-portrait{
         width: 190px;
@@ -669,3 +695,65 @@ iframe{
     text-decoration: none !important;
     color: black;
   }
+
+  /* bio section */
+
+
+.bio-header-section{
+    background-image: url("images-copy/background.png");
+    overflow-x: hidden;
+    height: 26vh;
+    color: white;
+}
+
+.header{
+    text-align: center;
+    margin-top: 6%;
+}
+.header>h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.bio-section{
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.passion{
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #9e1a16;
+    padding: 20px 20px 5px 20px;
+}
+.for-azusa-section{
+    margin-top: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.azusa-header{
+    background-image: url("images-copy/background.png");
+    overflow-x: hidden;
+    color: white;
+}
+
+.azusa-img{
+    width:100%;
+}
+
+.azusa-header>h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+}
