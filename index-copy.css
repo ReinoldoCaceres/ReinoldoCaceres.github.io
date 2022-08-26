@@ -509,8 +509,8 @@ iframe{
     }
 
     .azusa-img{
-        display: flex;
-        height: 100% !important;
+        object-fit: cover;
+        height: 300px !important;
         width: 100% !important;
         object-fit: cover !important;
         object-position: center !important;
@@ -825,6 +825,8 @@ iframe{
     margin-top: 2%;
     margin-bottom: 5%;
     padding: 3%;
+    overflow: hidden !important;
+
 }
 
 .donate-here-content-rc{
