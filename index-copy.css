@@ -315,6 +315,10 @@ iframe{
   and (max-device-width: 1100px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
+
+    .donate-here-button {
+        width: 100% !important;
+    }
     *{
         overflow-x:hidden;
     }
