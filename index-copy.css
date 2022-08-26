@@ -496,6 +496,17 @@ iframe{
         width: 236px;
     }
 
+    .donate-here-content-rc {
+        font-size: 2rem !important;
+        line-height: 1em;
+        margin-left: 10%;
+      }
+
+    .donate-here-button {
+        width: 100%;
+        font-size: 0.7rem;
+    }    
+
     .white{
         display: none;
     }
