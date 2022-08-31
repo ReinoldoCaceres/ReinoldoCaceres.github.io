@@ -282,6 +282,11 @@ iframe{
     height: 87vh; 
     border-width : 0
 }
+
+.description-card{
+    text-align: justify;
+    text-justify: inter-word;
+}
 @media only screen and (max-width: 1400px) {
     .nav-item {
         margin-left: 40px;
