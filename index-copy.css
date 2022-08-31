@@ -284,7 +284,7 @@ iframe{
 }
 
 .description-card{
-    text-align: justify;
+    text-align: justify !important;
     text-justify: inter-word;
 }
 @media only screen and (max-width: 1400px) {
