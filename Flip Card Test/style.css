@@ -560,9 +560,21 @@ iframe{
   .flip-card {
     background-color: transparent;
     width: 100%;
-    height: 54vh!important;
     border: 1px solid #f1f1f1;
   }
+
+  .flip-card-1{
+    height: 54vh !important;
+  }
+
+  .flip-card-2{
+    height: 67vh !important;
+  }
+
+  .flip-card-3{
+    height: 50vh !important;
+  }
+
   .goals-text-p{
     font-size: 1.2rem;
   }
