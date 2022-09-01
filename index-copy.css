@@ -8,7 +8,7 @@
     border: 1px solid #f1f1f1;
     overflow: hidden!important;
   }
-  
+
   /* This container is needed to position the front and back side */
   .flip-card-inner {
     position: relative;
@@ -18,12 +18,12 @@
     transition: transform 0.8s;
     transform-style: preserve-3d;
   }
-  
+
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: perspective(1000px) rotateY(180deg);
   }
-  
+
   /* Position the front and back side */
   .flip-card-front,
   .flip-card-back {
@@ -33,32 +33,32 @@
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
   }
-  
+
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color: auto;
     color: black;
   }
-  
+
   /* Style the back side */
   .flip-card-back {
     background-color: auto;
     color: white;
     transform: rotateY(180deg);
   }
-  
+
   .test-class{
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  
+
   .goals-text-p{
     font-size: 1.75rem;
   }
-  
+
   /* END OF CSS TEST */
-  
+
   .logo{
       width: 250px;
   }
@@ -71,21 +71,21 @@
       margin-left: 50px;
       font-weight: bold;
   }
-  
+
   .nav-item-meet-dennis{
       width: 170px;
   }
-  
+
   .social-icons{
   margin-left: auto;
   }
-  
+
   .red {
       background-color: #9e1a16;
       color: white !important;
       font-weight: 400;
   }
-  
+
   .social-media-tablet{
       width: 0;
       height: 0;
@@ -93,18 +93,18 @@
   .tablet-only{
       display: none;
   }
-  
+
   .dark-red{
       background-color: #801212;
       color: white !important;
       font-weight: 400;
   }
-  
+
   .main-section{
       background-image: url("images-copy/background.png");
       overflow-x: hidden;
   }
-  
+
   .img-portrait {
       margin-left: 65%;
       width: 450px;
@@ -120,43 +120,43 @@
       margin-top: 10%;
       border-color: white;
   }
-  
+
   .main-message >h2 {
       font-size: 4rem;
       color: white;
       margin: 5%;
-  
+
   }
-  
+
   .american-flag{
       margin: 5%;
       overflow-x: hidden;
   }
-  
+
   .flag-img{
       width: 520px;
       margin-top: 5%;
   }
-  
+
   .american-flag-text >h1{
       color:#9e1a16;
       font-size: 3.3rem;
       text-align: right;
   }
-  
-  
+
+
   .american-flag-text >p{
       color:black;
       font-size: 1.7rem;
       text-align: right;
       margin-left: 15%;
-  
+
   }
-  
+
   .stars{
       width: 100%;
   }
-  
+
   .numbers-title{
       text-align: center;
       color: #9e1a16;
@@ -165,7 +165,7 @@
       margin-top: 3%;
       font-weight: bolder;
   }
-  
+
   .numbers-information{
       width: 90%;
       margin: auto;
@@ -176,11 +176,11 @@
       padding: 2%;
       margin-bottom: 2%;
   }
-  
+
   .numbers-information-para{
       font-size: 4rem;
       text-align: center;
-  
+
   }
   .number{
       color: black;
@@ -188,19 +188,19 @@
       font-size: 5rem;
       width: 250px;
   }
-  
+
   .number > p{
       background-color: white;
       width: 70%;
       margin: auto;
       font-weight: bold;
   }
-  
+
   .program-cards{
       margin: 0;
       text-align: center;
   }
-  
+
   .program-item >h1{
       color: #9e1a16;
       font-weight: bold;
@@ -226,33 +226,39 @@
   .program-item>img{
       width: 350px;
   }
-  
+
   .quote{
       margin-top: 5%;
       background-color: #9e1a16;
       padding: 5%;
   }
-  
+
   .quote-tile{
       color: white;
       font-weight: bold;
-      font-size: 3rem;
+      font-size: 2.5rem;
       text-align: center;
+      overflow: hidden;
   }
-  
+
   .quote-p{
       color: white;
       font-weight: bold;
       font-size: 2rem;
       text-align: center;
-  
+
   }
-  
-  
+
+  .sig-img{
+    width: 100%;
+    padding: 70px 0
+  }
+
+
   .container-footer >h2{
       font-weight: bold;
   }
-  
+
   .footer{
       overflow-x: hidden;
       text-align: center;
@@ -261,27 +267,27 @@
       text-align: center;
       padding-top: 1%;
   }
-  
+
   .social-image{
       width: 40px;
   }
-  
-  
+
+
   .col-md-4 >h2 {
       font-size: 1rem;
   }
-  
+
   .contact-us{
       overflow-x: hidden;
       background-image: url("images-copy/contact-background.png");
-  
-  
+
+
   }
-  
+
   .evenlope{
       width: 60px;
   }
-  
+
   .email-h3{
       margin: auto;
       font-size: 1.5rem;
@@ -293,7 +299,7 @@
       padding-bottom: 4px;
       width: 50%;
   }
-  
+
   .contact-h2{
       margin-bottom: 5%;
       color: #9e1a16;
@@ -304,24 +310,24 @@
       text-align: center;
       margin-bottom: 5%;
   }
-  
+
   .right-side-contact{
       text-align: center;
   }
-  
+
   .contact-form{
       margin-bottom: 5%;
       margin-left: 5%;
       margin-right: 5%;
-  
+
   }
-  
+
   label{
       color: #9e1a16;
       font-weight: bold;
       font-size: 1.3rem;
   }
-  
+
   input[type=submit]{
       background-color: #9e1a16;
       border: none;
@@ -333,9 +339,9 @@
       font-size: 1.5rem;
       margin-left: auto;
       margin-right: auto;
-  
+
     }
-  
+
   iframe{
       width: 100%;
       height: 87vh;
@@ -375,14 +381,14 @@
           width: 150px;
       }
   }
-  
+
   @media only screen
     and (min-device-width: 768px)
     and (max-device-width: 1100px)
     and (orientation: portrait)
     and (-webkit-min-device-pixel-ratio: 2) {
-  
-  
+
+
       .donate-here-button {
           width: 100% !important;
           margin-top: 20% !important;
@@ -399,27 +405,27 @@
       .nav-item-social{
           display: none;
       }
-  
+
       .nav-item-social-responsive{
           padding-top: 3%;
           display: unset;
           text-align: center;
       }
-  
+
       .social-icons-resp {
           display: unset;
       }
-  
+
       .dark-red{
           text-align: center;
           width: 100%;
       }
-  
+
       .red{
           text-align: center;
           width: 100%;
       }
-  
+
       .tablet-only{
           display: unset;
       }
@@ -430,7 +436,7 @@
       .number >p{
           padding-left: 20px;
           padding-right: 120px;
-  
+
       }
       ul{
           float: inline-end;
@@ -442,11 +448,11 @@
       .social-li-tablet{
           margin: auto;
       }
-  
+
       .social-media >ul{
           display: inline-block;
       }
-  
+
       .social-media{
           width: 0;
       }
@@ -456,19 +462,19 @@
       .img-portrait{
           width: 300px;
           margin-left: 65%;
-  
+
       }
       .flag-img{
           width: 350px;
           margin-left: auto;
           margin-right: auto;
-  
+
       }
       .main-message{
           margin-left: 5%;
           margin-top: 1%;
           width: 60%;
-  
+
       }
       .main-message > h2{
           font-size: 1.6rem;
@@ -524,7 +530,7 @@
           margin-left:5%;
           font-size: 2rem;
           text-align: center;
-  
+
       }
       .quote-p{
           text-align: center;
@@ -536,20 +542,20 @@
       .col-md-4 > h2{
           font-size: 0.9rem;
       }
-  
+
       ul > li {
           display:inline-block;
           width: 90px;
       }
-  
+
       .social-image{
           width: 40px;
       }
-  
+
       .social-icons-resp{
           text-align: center;
       }
-  
+
       .social-image2{
           margin-left: 5%;
           margin-right: 5%;
@@ -557,17 +563,17 @@
       .social-li{
           margin-left: 10%;
       }
-  
+
   }
   @media only screen and (max-width: 600px) {
-  
+
     .flip-card {
       background-color: transparent;
       width: 100%;
       border: 1px solid #f1f1f1;
       height: 70vh;
     }
-  
+
     .numbers-information{
       height: 70vh !important;
     }
@@ -585,43 +591,43 @@
     .goals-text{
         margin-top: 30%;
     }
-  
-  
+
+
     .goals-text-p{
       font-size: 1.2rem;
     }
-  
+
       .logo{
           width: 236px;
       }
-  
+
       .donate-here-content-rc {
           font-size: 2rem !important;
           line-height: 1em;
           margin-left: 10%;
         }
-  
+
       .donate-here-button {
           width: 100%;
           font-size: 0.7rem;
       }
-  
+
       .white{
           display: none;
       }
-  
+
       .special-join-me{
           width: 80px;
       }
-  
+
       .donate-here-button >h1{
           padding: 5%;
       }
-  
+
       .header-img{
           width: 300px !important;
       }
-  
+
       .azusa-img{
           object-fit: cover;
           height: 300px !important;
@@ -629,7 +635,7 @@
           object-fit: cover !important;
           object-position: center !important;
       }
-  
+
       .portrait{
           overflow: hidden;
       }
@@ -641,12 +647,12 @@
           display: unset;
           text-align: center;
       }
-  
+
       .dark-red{
           text-align: center;
           width: 100%;
       }
-  
+
       .red{
           text-align: center;
           width: 100%;
@@ -657,43 +663,43 @@
       .social-media{
           margin-left:auto;
           margin-right:auto;
-  
+
           margin-top: 5%;
           margin-bottom: 0%;
-  
+
       }
       .social-image{
           width: 40px;
       }
-  
+
       .social-image2{
           margin-right: 10px;
           margin-left: 10px;
-  
+
       }
       .social-icons-resp{
           text-align: center;
       }
-  
+
       .social-icons-resp {
           display: unset;
       }
-  
+
       .img-portrait{
           width: 190px;
           margin-left: 65%;
-  
+
       }
       .flag-img{
           width: 90%;
           margin-left: auto;
           margin-right: auto;
-  
+
       }
       .main-message{
           margin-left: 5%;
           margin-top: 1%;
-  
+
       }
       .main-message > h2{
           font-size: 1.6rem;
@@ -784,7 +790,7 @@
           margin-top: 5%;
       }
     }
-  
+
     .bio-tite , .for-azusa-title{
       text-align: center;
       margin-top: 5%;
@@ -792,7 +798,7 @@
       color: #9e1a16;
       font-weight: bold;
     }
-  
+
     .for-azusa-title{
       text-align: center;
       margin-top: 10%;
@@ -800,8 +806,8 @@
       color: #9e1a16;
       font-weight: bold;
     }
-  
-  
+
+
     .bio-content, .for-azusa{
       margin: auto;
       width: 75%;
@@ -809,40 +815,40 @@
       text-align: justify;
       text-justify: inter-word;
     }
-  
+
     .bold-red{
       color: #801212;
       font-weight: 900;
     }
-  
+
     .bold-red-final{
       color: #9e1a16;
       font-weight: 999;
       font-size: 1.1em;
     }
-  
+
     .for-azusa{
       margin-bottom: 5%;
     }
-  
+
     .read-more{
       cursor: pointer;
     }
-  
+
     a:link, a:visited,  a:hover, a:active{
       text-decoration: none !important;
       color: black;
     }
-  
+
     /* bio section */
-  
-  
+
+
   .bio-header-section{
       background-image: url("images-copy/background.png");
       overflow-x: hidden;
       color: white;
   }
-  
+
   .header{
       text-align: center;
       margin-top: 6%;
@@ -860,7 +866,7 @@
       margin-left: auto;
       margin-right: auto;
   }
-  
+
   .passion{
       text-align: justify;
       text-justify: inter-word;
@@ -884,29 +890,29 @@
       object-fit: cover;
       color: white;
   }
-  
+
   .azusa-img{
       width:100%;
   }
-  
-  
+
+
   .bio-potrait{
       width: 100%;
   }
-  
+
   .bio-header >h1{
       text-align: center;
   }
-  
+
   .header-container{
       margin: auto;
       text-align: center;
   }
-  
+
   .header-img{
       width: 700px;
   }
-  
+
   .for-azusa-section{
       width: 80%;
       margin-left: auto;
@@ -914,22 +920,22 @@
       text-align: justify;
       text-justify: inter-word;
   }
-  
+
   .for-azusa-content-rc >h1{
       text-align: center;
       font-weight: bold;
       font-size: 1.5rem;
   }
-  
+
   .for-azusa-content-rc >img{
       width: 100%;
   }
-  
+
   .for-azusa-content-rc >p{
       margin-top: 2%;
       margin-bottom: 2%;
   }
-  
+
   .donate-here-section{
       width: 90%;
       margin-left: auto;
@@ -940,24 +946,24 @@
       margin-bottom: 5%;
       padding: 3%;
       overflow: hidden !important;
-  
+
   }
-  
+
   .donate-here-content-rc{
       font-size: 3.5rem;
       line-height: 1em;
       margin-left: 10%;
   }
-  
+
   .donate-here-button{
       width: 65%;
       margin: auto;
       margin-bottom: auto;
       margin-top: auto;
   }
-  
+
   .donate-here-button >h1{
-  
+
       color: black;
       background-color: white;
       padding: 10%;
@@ -965,14 +971,14 @@
       text-align: center;
       font-size: 300%;
   }
-  
+
   .special-join-me{
       font-size: 4rem;
   }
-  
+
   .white-cont{
       margin: auto;
-  
+
   }
   .white{
       width: 100%;
@@ -981,25 +987,24 @@
       background-color: white;
       margin-left: -45px;
   }
-  
+
   .float-container {
       border: 3px solid #fff;
       padding: 20px;
   }
-  
+
   .float-child {
       width: 50%;
       float: left;
       padding: 20px;
       border: 2px solid red;
   }
-  
+
   .red-line{
       width: 12%;
   }
-  
+
   .red-line-v{
       border-left: 10px solid #9e1a16;
       padding-left: 3%;
   }
-  
