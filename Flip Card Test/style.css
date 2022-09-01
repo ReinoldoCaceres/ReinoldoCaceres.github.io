@@ -563,17 +563,14 @@ iframe{
     border: 1px solid #f1f1f1;
   }
 
-  .flip-card-1{
-    height: 54vh !important;
+  .goals-text-p, .test-class{
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
 
-  .flip-card-2{
-    height: 67vh !important;
-  }
 
-  .flip-card-3{
-    height: 50vh !important;
-  }
 
   .goals-text-p{
     font-size: 1.2rem;
@@ -704,6 +701,7 @@ iframe{
     }
     .numbers-information{
         width: 95%;
+        height: 54vh;
         text-align: center;
     }
     .numbers-information-para{
