@@ -198,6 +198,7 @@
   
   .program-cards{
       margin: 0;
+      text-align: center;
   }
   
   .program-item >h1{
@@ -567,7 +568,7 @@
     .numbers-information{
       height: 70vh !important;
     }
-     .test-class{
+     .test-class, .goals-text{
       position: absolute;
       top: 50% !important;
       -ms-transform: translateY(-50%) !important;
@@ -576,14 +577,11 @@
 
     .goals-text-p{
         position: absolute;
-        top: 50% !important;
-        margin-top: 10%;
     }
   
   
     .goals-text-p{
       font-size: 1.2rem;
-      padding: 5%;
     }
   
       .logo{
