@@ -751,6 +751,10 @@
           margin-bottom: 5%;
           font-weight: bold;
       }
+
+      .program-item{
+        margin-bottom: 5%;
+      }
       .quote-tile{
           margin-left:5%;
           font-size: 2rem;
