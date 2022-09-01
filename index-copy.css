@@ -207,11 +207,13 @@
       font-size: 2rem;
       text-align: center;
       width: 78%;
+      margin: auto;
   }
   .program-item >p{
       color: black;
       text-align: center;
       width: 349px;
+      margin: auto;
   }
   .program-item >h2{
       color: black;
@@ -219,6 +221,7 @@
       text-align: center;
       width: 50%;
       margin-left: 26%;
+      margin: auto;
   }
   .program-item>img{
       width: 350px;
