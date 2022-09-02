@@ -17,6 +17,10 @@
 
 }
 
+.navbar-toggler{
+    margin-left: 10%!important;
+}
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
@@ -617,7 +621,7 @@ iframe {
   }
 
   .logo {
-    width: 236px;
+    width: 200px;
   }
 
   .donate-here-content-rc {
