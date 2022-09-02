@@ -21,6 +21,9 @@
   box-shadow: 0px 0px 0px 5px rgba(247, 244, 244, 0.2) !important;
 }
 
+.button-a {
+    display: none;}
+
 .button-f>a{
     color: white !important;
 }
@@ -601,6 +604,26 @@ iframe {
 @media only screen and (max-width: 600px) {
   .allGoals-mobile__container {
     display: block !important;
+  }
+
+  .button-f{
+    display: none;
+  }
+
+  .button-a {
+    display: unset;
+    background-color: rgba(158, 26, 22, 0.7);
+    /* background-color: #9e1a16; */
+    color: white !important;
+    border-radius: 40px;
+    cursor: pointer;
+    top: 85%;
+    right: 0;
+    margin-right: 2%;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0px 0px 0px 5px rgba(247, 244, 244, 0.2) !important;
+    padding:1.4%;
   }
 
   .numbers {
