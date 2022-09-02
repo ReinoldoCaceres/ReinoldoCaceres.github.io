@@ -4,9 +4,10 @@
   display: none !important;
 }
 
-.stars{
-    margin-bottom: 5%;
-    margin-top: 5%;
+.allGoals-mobile__container{
+    margin-top: 5%!important;
+    margin-bottom: 5%!important;
+
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
