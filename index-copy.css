@@ -3,10 +3,17 @@
 .allGoals-mobile__container {
   display: none !important;
 }
+.goal-mobile__container{
 
+    margin-left: auto!important;
+    margin-right: auto!important;
+
+}
 .allGoals-mobile__container{
-    margin-top: 5%!important;
+    margin-top: 10%!important;
     margin-bottom: 5%!important;
+
+
 
 }
 
