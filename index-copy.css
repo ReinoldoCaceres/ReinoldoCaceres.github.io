@@ -246,6 +246,9 @@
   text-align: center;
 }
 
+.program-item{
+  margin-bottom: 20px;
+}
 .program-item > h1 {
   color: #9e1a16;
   font-weight: bold;
@@ -259,6 +262,7 @@
   text-align: center;
   width: 349px;
   margin: auto;
+  
 }
 .program-item > h2 {
   color: black;
@@ -1296,4 +1300,3 @@ a:active {
     font-size: 1.3rem;
   }
 }
-
